@@ -27,7 +27,7 @@ navigate('/result')
             <p>Best text to image generator</p>
             <img src={assets.star_icon} alt="" />
           </motion.div>
-           <motion.h1 className="text-4xl sm:text-6xl font-semibold mt-6 text-black text-center max-w-[700px] leading-tight">
+           <motion.h1 className="text-4xl sm:text-6xl font-semibold mt-6 text-black text-center max-w-175 leading-tight">
             Turn text to <span className='text-blue-400'
             initial={{opacity:0}}
               animate={{opacity:1}}
