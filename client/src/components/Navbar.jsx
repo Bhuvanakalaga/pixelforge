@@ -10,8 +10,8 @@ const Navbar = () => {
 
     <div className='flex items-center justify-between py-4'>
      <Link to='/'>
-     <img src={assets.logo} alt="" className='w-28 
-     sm:w-32 lg:w-40'/> </Link>
+     <img src={assets.logo} alt="" className='w-40 
+     sm:w-48 lg:w-64'/> </Link>
    <div>
     {User?
     <div className='flex items-center gap-2 sm:gap-3'>
